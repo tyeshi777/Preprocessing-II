@@ -262,3 +262,30 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+@media (max-width: 500px) {
+  .container-home {
+    max-width: 490px;
+    margin: 0 auto;
+  }
+  .top-div {
+    display: block;
+    text-align: center;
+  }
+  .top-div nav {
+    padding-top: 15px;
+  }
+  .top-div a:first-child {
+    margin-left: 0;
+  }
+  .content-section {
+    width: 490px;
+  }
+  .content-section .text-content {
+    width: 100%;
+    display: block;
+  }
+  .content-section .img-content {
+    width: 100%;
+    display: block;
+  }
+}
