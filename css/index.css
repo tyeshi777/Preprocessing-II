@@ -309,4 +309,18 @@ img {
     width: 60%;
     margin-bottom: 30px;
   }
+  .home .btn {
+    max-width: 280px;
+    padding: 8px 15px;
+    background-color: #118869;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .home .btn:hover {
+    color: red;
+    background: #75e7f0;
+    cursor: pointer;
+  }
 }
