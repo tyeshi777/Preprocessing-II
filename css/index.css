@@ -291,13 +291,12 @@ img {
     align-items: center;
   }
   .home .content-section .text-content {
+    order: 1;
+    padding-top: 20px;
     width: 80%;
   }
   .home .content-section .img-content {
     width: 80%;
-  }
-  .home .content-section .img-fluid-rounded {
-    order: -1;
   }
   .home .content-pick {
     max-width: 490px;
